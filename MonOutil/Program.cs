@@ -6,10 +6,10 @@ using MonOutil;
 string? userName;
 
 //-2- Code
-Console.Write("Bonjour, quel est votre nom?: ");
+Console.Write("Hello ! What is your name?: ");
 userName = Console.ReadLine();
 
 //Alternatif à Console.WriteLine("Bienvenue " + userName + " à MonOutil.");
-Console.WriteLine($"Bienvenue {userName} à MonOutil.");
+Console.WriteLine($"Nice to meet you {userName}, welcome to MonOutil.");
 
 new Meteo();

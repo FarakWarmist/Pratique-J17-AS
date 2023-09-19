@@ -14,13 +14,13 @@ namespace MonOutil
             double tempFahrenheit;
             double convert;
 
-            Console.WriteLine("Bivenue à l'outil Météo.");
-            Console.Write("Quelle est la température actuelle en celsius?: ");
+            Console.WriteLine("Welcome to the Weather tool.");
+            Console.Write("What is the current temperature in celsius?: ");
             tempCelsius = Console.ReadLine();
             convert= Convert.ToDouble(tempCelsius);
             tempFahrenheit = (convert * 9 / 5) + 32;
 
-            Console.WriteLine($"Il fait présentement {tempFahrenheit}°F.");
+            Console.WriteLine($"It's currently {tempFahrenheit}°F.");
         }
     }
 }
