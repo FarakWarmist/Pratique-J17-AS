@@ -141,9 +141,6 @@ namespace MonOutil
                     Console.WriteLine($"{montant}$ {monnaieAType} équivaut à {monnaieConvert}$ {monnaieBType}.");
                 }
             }
-
-            
-            // Console.WriteLine($"{montant}{monnaieAType} équivaut à {monnaieConvert} ");
         }
     }
 }
